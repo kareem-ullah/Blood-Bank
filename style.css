@@ -1,0 +1,226 @@
+body {
+  padding: 10px 30px;
+  background-color: #dbd9d0 !important;
+}
+
+.topimg {
+  padding: 20px;
+  /* margin-left: 0px !important; */
+  background-color: white;
+  margin-bottom: 10px;
+}
+.img {
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
+.divbtn {
+  display: flex;
+  /* margin-top: 10px !important; */
+}
+.divbtn > a {
+    margin-top: 15px !important;
+  background-color: red;
+  color: white;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  font-size: 20px;
+  font-weight: bolder;
+  align-self: flex-end;
+  padding: 7px;
+  margin-right: 10px;
+}
+.login {
+  display: flex;
+  align-self: flex-end;
+  color: white;
+  display: inline-block;
+}
+.login > button {
+    margin-top: 10px !important;
+  background-color: red;
+  color: white;
+  outline: none !important;
+  border: 2px solid red;
+  padding: 7px;
+  font-weight: bold;
+}
+#bloodshow {
+  display: none;
+}
+.nav2nd {
+  padding: 10px 10px;
+  border: 1px solid cadetblue;
+  background-color: #dbd9d0;
+}
+
+.img2nd {
+  width: 100%;
+}
+.divh {
+  /* width: 95%; */
+  background-color: white;
+  /* margin-left: 20px; */
+  margin-top: 20px;
+  padding: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  color: red;
+  box-shadow: 5px 10px 18px #888888;
+}
+.modal-content {
+  background-color: #008cba !important;
+  font-weight: bold;
+}
+.nav3rd {
+  background-color: white;
+  margin-top: 20px;
+  display: flex;
+  padding: 5px 0px 10px 0px !important;
+}
+.divh1 {
+  border: 1px solid cadetblue;
+  background-color: #dbd9d0;
+  padding: 15px;
+  margin-top: 10px;
+}
+h1 {
+    /* margin-top: 0px !important; */
+  text-align: center;
+  padding-bottom: 5px;
+  background-color: white;
+  color: red !important;
+  border-radius: 5px;
+  font-size: 35px !important;
+  box-shadow: 5px 15px 18px #888888;
+}
+.divpera {
+  text-align: justify;
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: 5px 15px 18px #888888;
+}
+.about-p {
+  padding-bottom: 20px;
+}
+.divfield{
+    display: flex;
+    justify-content: center;
+}
+@media screen and (min-width: 480px) {
+    fieldset {
+        width: 60%;
+      }
+  }
+fieldset {
+  color: red;
+  border: 2px solid red !important;
+}
+#searchCity {
+  border: none;
+  border: 2px solid red !important;
+}
+#searchBloodGroup {
+  color: red;
+  border: 2px solid red !important;
+}
+.search {
+  margin-left: 100px;
+  margin-bottom: 10px;
+  color: red;
+  border: none;
+  background-color: white;
+}
+.sidebar {
+  background-color: #dbd9d0;
+  padding: 5px !important;
+  height: 98%;
+  margin-top: 10px;
+
+  /* margin: 10px 0px 0px 10px !important; */
+  /* border: 2px solid red !important; */
+}
+#p1 {
+  display: none;
+}
+#p2 {
+  display: none;
+}
+#p3 {
+  display: none;
+}
+.side1 {
+  padding: 10px 30px;
+  margin: 10px;
+  border-radius: 5px;
+  border: 2px solid white;
+  background-color: rgb(223, 47, 47);
+  cursor: pointer;
+}
+
+.side2 {
+  margin: 10px;
+  padding-top: 20px;
+  border-radius: 5px;
+  border: 2px solid white;
+  background-color: rgb(223, 47, 47);
+}
+a {
+  padding-left: 25px;
+  color: white !important;
+}
+h5 {
+  padding: 5px;
+  color: white !important;
+  border-bottom: 2px;
+  border-bottom-style: solid;
+  font-family: serif !important;
+}
+h3 {
+  margin-left: 30px;
+  color: white !important;
+  font-family: serif !important;
+  font-weight: bold !important;
+}
+
+.footer {
+  text-align: center;
+  padding-top: 7px;
+  /* width: 100%; */
+  height: 40px;
+  background-color: rgb(223, 47, 47);
+  color: white;
+  font-family: serif !important;
+}
+.Contactarea {
+  padding: 10px;
+  background-color: rgba(255, 0, 0, 0.65);
+  color: white;
+}
+.contactdiv {
+  /* padding: 20px; */
+  display: flex;
+  justify-content: center;
+  padding: 15px 10px 10px 10px !important;
+
+}
+.tr {
+  background-color: red;
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  /* padding: 20px !important; */
+  border: 3px solid red !important;
+}
+
+.td {
+  font-size: 20px;
+
+  font-weight: bold;
+  text-align: center;
+  border: 3px solid red;
+}
